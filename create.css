@@ -1,10 +1,87 @@
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.buttonAm {
+    width: 40px;
+    background-color: #e07d7d;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
 }
+.buttonAe {
+    width: 40px;
+    background-color: #efbf81;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonTm {
+    width: 40px;
+    background-color: #fffbaa;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonBm {
+    width: 40px;
+    background-color: #bfffaa;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonSm {
+    width: 40px;
+    background-color: #baf9ff;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonNm {
+    width: 40px;
+    background-color: #a6c1ea;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonH {
+    width: 40px;
+    background-color: #e8d8ff;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonNg {
+    width: 40px;
+    background-color: #d2c6ff;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonL {
+    width: 40px;
+    background-color: #e2c1ff;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.buttonA {
+    width: 40px;
+    background-color: #ffa3f6;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+}
+.invisibleButton {
+    width: 40px;
+    background-color: #ffffff;
+    font-size: 25px;
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
