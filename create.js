@@ -3,7 +3,7 @@ function elementAlert(elem) {
     //var msg = elem;
     document.getElementById("output").innerHTML = msg;
     console.log(msg);
-    document.getElementById("output").className = "alert alert - primary";
+    document.getElementById("output").className = "alert alert-primary";
 }
 
 function element(name, atomicNum) {
