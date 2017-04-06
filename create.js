@@ -1,8 +1,9 @@
 function elementAlert(elem) {
-    msg = "Element:" + elem.name + '<br>' + "Atomic Number" + elem.atomicNum + '<br>' + "Fact:" + elem.fact;
-    //var msg = "Hello";
+    msg = "Element: " + elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: ";
+    //var msg = elem;
     document.getElementById("output").innerHTML = msg;
-    document.getElementById("output").innerHTML = alert alert - info;
+    console.log(msg);
+    document.getElementById("output").className = "alert alert - primary";
 }
 
 
