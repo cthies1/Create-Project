@@ -1,87 +1,284 @@
+#h1{
+    font-family: sans-serif;
+}
 .buttonAm {
-    width: 40px;
+    width: 60px;
     background-color: #e07d7d;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonAm:hover {
+    width: 60px;
+    background-color: #bf5d5d;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonAe {
-    width: 40px;
+    width: 60px;
     background-color: #efbf81;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+buttonAe:hover {
+    width: 60px;
+    background-color: #f7b765;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonTm {
-    width: 40px;
+    width: 60px;
     background-color: #fffbaa;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonTm:hover {
+    width: 60px;
+    background-color: #f4ee75;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonBm {
-    width: 40px;
+    width: 60px;
     background-color: #bfffaa;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonBm:hover {
+    width: 60px;
+    background-color: #a2ef88;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonSm {
-    width: 40px;
+    width: 60px;
     background-color: #baf9ff;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonSm:hover {
+    width: 60px;
+    background-color: #95dee5;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonNm {
-    width: 40px;
+    width: 60px;
     background-color: #a6c1ea;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonNm:hover {
+    width: 60px;
+    background-color: #809fce;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonH {
-    width: 40px;
+    width: 60px;
     background-color: #e8d8ff;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonH:hover {
+    width: 60px;
+    background-color: ##baa7d6;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonNg {
-    width: 40px;
+    width: 60px;
     background-color: #d2c6ff;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
-.buttonL {
-    width: 40px;
-    background-color: #e2c1ff;
+
+.buttonNg:hover {
+    width: 60px;
+    background-color: #ac9fdd;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonL {
+    width: 60px;
+    background-color: #ffb5d3;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.buttonL:hover {
+    width: 60px;
+    background-color: #e295b5;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .buttonA {
-    width: 40px;
+    width: 60px;
     background-color: #ffa3f6;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
 }
+
+.buttonA:hover {
+    width: 60px;
+    background-color: #d67ccd;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
 .invisibleButton {
-    width: 40px;
+    width: 60px;
     background-color: #ffffff;
     font-size: 25px;
-    border-style: hidden;
-    border-radius: 0px;
-    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.invisibleButton2 {
+    width: 125px;
+    background-color: #ffffff;
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    text-align: center;
+    border-radius: 4px;
+}
