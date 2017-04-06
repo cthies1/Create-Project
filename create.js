@@ -6,13 +6,11 @@ function elementAlert(elem) {
     document.getElementById("output").className = "alert alert-primary";
 }
 
-
 function element(name, atomicNum) {
     this.name = name;
     this.atomicNum = atomicNum;
     //this.funFact = funFact;
 }
-
 var H = new element("HYDROGEN", 1);
 var He = new element("HELIUM", 2);
 var Li = new element("LITHIUM", 3);
