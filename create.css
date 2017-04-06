@@ -3,7 +3,7 @@
 }
 
 .buttonAm {
-    width: 60px;
+    width: 70px;
     background-color: #e07d7d;
     font-size: 25px;
     border-style: solid;
@@ -16,7 +16,7 @@
 }
 
 .buttonAm:hover {
-    width: 60px;
+    width: 70px;
     background-color: #e07d7d;
     font-size: 25px;
     border-style: solid;
@@ -29,7 +29,7 @@
 }
 
 .buttonAe {
-    width: 60px;
+    width: 70px;
     background-color: #efbf81;
     font-size: 25px;
     border-style: solid;
@@ -42,7 +42,7 @@
 }
 
 buttonAe:hover {
-    width: 60px;
+    width: 70px;
     background-color: #efbf81;
     font-size: 25px;
     border-style: solid;
@@ -55,7 +55,7 @@ buttonAe:hover {
 }
 
 .buttonTm {
-    width: 60px;
+    width: 70px;
     background-color: #fffbaa;
     font-size: 25px;
     border-style: solid;
@@ -68,7 +68,7 @@ buttonAe:hover {
 }
 
 .buttonTm:hover {
-    width: 60px;
+    width: 70px;
     background-color: #fffbaa;
     font-size: 25px;
     border-style: solid;
@@ -81,7 +81,7 @@ buttonAe:hover {
 }
 
 .buttonBm {
-    width: 60px;
+    width: 70px;
     background-color: #bfffaa;
     font-size: 25px;
     border-style: solid;
@@ -94,7 +94,7 @@ buttonAe:hover {
 }
 
 .buttonBm:hover {
-    width: 60px;
+    width: 70px;
     background-color: #bfffaa;
     font-size: 25px;
     border-style: solid;
@@ -107,7 +107,7 @@ buttonAe:hover {
 }
 
 .buttonSm {
-    width: 60px;
+    width: 70px;
     background-color: #baf9ff;
     font-size: 25px;
     border-style: solid;
@@ -120,7 +120,7 @@ buttonAe:hover {
 }
 
 .buttonSm:hover {
-    width: 60px;
+    width: 70px;
     background-color: #baf9ff;
     font-size: 25px;
     border-style: solid;
@@ -133,7 +133,7 @@ buttonAe:hover {
 }
 
 .buttonNm {
-    width: 60px;
+    width: 70px;
     background-color: #a6c1ea;
     font-size: 25px;
     border-style: solid;
@@ -146,7 +146,7 @@ buttonAe:hover {
 }
 
 .buttonNm:hover {
-    width: 60px;
+    width: 70px;
     background-color: #a6c1ea;
     font-size: 25px;
     border-style: solid;
@@ -159,7 +159,7 @@ buttonAe:hover {
 }
 
 .buttonH {
-    width: 60px;
+    width: 70px;
     background-color: #e8d8ff;
     font-size: 25px;
     border-style: solid;
@@ -172,7 +172,7 @@ buttonAe:hover {
 }
 
 .buttonH:hover {
-    width: 60px;
+    width: 70px;
     background-color: #e8d8ff;
     font-size: 25px;
     border-style: solid;
@@ -185,7 +185,7 @@ buttonAe:hover {
 }
 
 .buttonNg {
-    width: 60px;
+    width: 70px;
     background-color: #d2c6ff;
     font-size: 25px;
     border-style: solid;
@@ -198,7 +198,7 @@ buttonAe:hover {
 }
 
 .buttonNg:hover {
-    width: 60px;
+    width: 70px;
     background-color: #d2c6ff;
     font-size: 25px;
     border-style: solid;
@@ -211,7 +211,7 @@ buttonAe:hover {
 }
 
 .buttonL {
-    width: 60px;
+    width: 70px;
     background-color: #ffb5d3;
     font-size: 25px;
     border-style: solid;
@@ -224,7 +224,7 @@ buttonAe:hover {
 }
 
 .buttonL:hover {
-    width: 60px;
+    width: 70px;
     background-color: #ffb5d3;
     font-size: 25px;
     border-style: solid;
@@ -237,7 +237,7 @@ buttonAe:hover {
 }
 
 .buttonA {
-    width: 60px;
+    width: 70px;
     background-color: #ffa3f6;
     font-size: 25px;
     border-style: solid;
@@ -250,7 +250,7 @@ buttonAe:hover {
 }
 
 .buttonA:hover {
-    width: 60px;
+    width: 70px;
     background-color: #ffa3f6;
     font-size: 25px;
     border-style: solid;
@@ -263,7 +263,7 @@ buttonAe:hover {
 }
 
 .invisibleButton {
-    width: 60px;
+    width: 70px;
     background-color: #ffffff;
     font-size: 25px;
     border-style: solid;
@@ -274,9 +274,9 @@ buttonAe:hover {
 }
 
 .invisibleButton2 {
-    width: 125px;
+    width: 140px;
     background-color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
     border-style: solid;
     border-radius: 1px;
     border-color: white;
