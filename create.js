@@ -1,9 +1,16 @@
+function elementAlert(elem) {
+    msg = "Element: " + elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: ";
+    //var msg = elem;
+    document.getElementById("output").innerHTML = msg;
+    console.log(msg);
+    document.getElementById("output").className = "alert alert - primary";
+}
+
 function element(name, atomicNum) {
     this.name = name;
     this.atomicNum = atomicNum;
     //this.funFact = funFact;
 }
-
 var H = new element("HYDROGEN", 1);
 var He = new element("HELIUM", 2);
 var Li = new element("LITHIUM", 3);
@@ -121,9 +128,3 @@ var Uup = new element("UNUNPENTIUM", 115);
 var Lv = new element("LIVERMORIUM", 116);
 var Uus = new element("UNUNSEPTIUM", 117);
 var Uuo = new element("UNUNOCTIUM", 118);
-
-
-
-document.getElementById('output').innerHTML = msg;
-document.getElementById('output').innerHTML = alert alert-info;
-}

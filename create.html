@@ -9,7 +9,7 @@
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="create.css">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
@@ -17,7 +17,7 @@
     <h1 id="h1">Interactive Periodic Table</h1>
     <form>
         <p>
-            <button type="button" id="output" class="buttonNm" onclick="elementAlert(H)">H</button>
+            <button type="button" class="buttonNm" onclick="elementAlert(H)">H</button>
             <button type="button" class="invisibleButton"></button>
             <button type="button" class="invisibleButton"></button>
             <button type="button" class="invisibleButton"></button>
@@ -193,4 +193,7 @@
             <button type="button" class="buttonA" onclick="elementAlert(No)">No</button>
             <button type="button" class="buttonA" onclick="elementAlert(Lr)">Lr</button>
         </p>
+        <div id="output" class="elemInfo"></div>
 </body>
+
+</html>
