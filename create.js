@@ -1,15 +1,13 @@
 function elementAlert(elem) {
     msg = elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: ";
     document.getElementById("output").innerHTML = msg;
-    console.log(msg);
+    //console.log(msg);
     document.getElementById("output").className = "alert alert-info";
 }
 
-function Element(name, atomicNum, /* fact, picture,*/ ) {
+function Element(name, atomicNum) {
     this.name = name;
     this.atomicNum = atomicNum;
-    //this.funFact = funFact;
-    //this.picture = picture;
 }
 var H = new Element("HYDROGEN", 1);
 var He = new Element("HELIUM", 2);
