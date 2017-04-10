@@ -1,17 +1,18 @@
 function elementAlert(elem) {
-    msg = elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: ";
+    msg = elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: " + elem.fact + "<br>" + "Link: ";
     document.getElementById("output").innerHTML = msg;
     //console.log(msg);
     document.getElementById("output").className = "alert alert-info";
 }
 
-function Element(name, atomicNum) {
+function Element(name, atomicNum, fact) {
     this.name = name;
     this.atomicNum = atomicNum;
+    this.fact = fact;
 }
-var H = new Element("HYDROGEN", 1);
-var He = new Element("HELIUM", 2);
-var Li = new Element("LITHIUM", 3);
+var H = new Element("HYDROGEN", 1, "The word hydrogen comes from the greek roots hydro which means water and genes which means forming");
+var He = new Element("HELIUM", 2, "Helium has the lowest boiling point out on the periodic table");
+var Li = new Element("LITHIUM", 3, "Lithium is the lightest metal");
 var Be = new Element("BERYLLIUM", 4);
 var B = new Element("BORON", 5);
 var C = new Element("CARBON", 6);
