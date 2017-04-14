@@ -1,17 +1,21 @@
 function elementAlert(elem) {
-    msg = elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: " + elem.fact + "<br>" + "Link: ";
+    msg = elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: " + elem.fact + "<br>" + "Link: " + elem.link;
     document.getElementById("output").innerHTML = msg;
-    //console.log(msg);
     document.getElementById("output").className = "alert alert-info";
     //document.getElementById("image").innerHTML =
 }
 
-function Element(name, atomicNum, fact) {
+function Element(name, atomicNum, fact, link) {
     this.name = name;
     this.atomicNum = atomicNum;
     this.fact = fact;
+    var linkName = link;
+    var linkAddress = linkName.link(link);
+    this.link = linkAddress;
+    //var pic = <img src="peanuts.jpg">;
+    //this.pic = pic;
 }
-var H = new Element("HYDROGEN", 1, "The word hydrogen comes from the greek roots hydro which means water and genes which means forming");
+var H = new Element("HYDROGEN", 1, "The word hydrogen comes from the greek roots hydro which means water and genes which means forming", "https://en.wikipedia.org/wiki/Hydrogen");
 var He = new Element("HELIUM", 2, "Helium has the lowest boiling point out on the periodic table");
 var Li = new Element("LITHIUM", 3, "Lithium is the lightest metal");
 var Be = new Element("BERYLLIUM", 4, "The United States, China, and Kazakhstan are the only countries involved in the production of Beryllium");
