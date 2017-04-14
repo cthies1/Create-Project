@@ -1,28 +1,30 @@
 function elementAlert(elem) {
-    msg = elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Fact: " + elem.fact + "<br>" + "Link: " + elem.link;
+    msg = elem.name + "<br>" + "Atomic Number: " + elem.atomicNum + "<br>" + "Number of Protons: " + elem.protons + "<br>" + "Number of Neutrons: " + elem.neutrons + "<br>" + "Number of Electrons: " + elem.electrons + "<br>" + "Atomic Mass: " + elem.atomicMass + "<br>" + "Fact: " + elem.fact + "<br>" + "Link: " + elem.link;
     document.getElementById("output").innerHTML = msg;
     document.getElementById("output").className = "alert alert-info";
     //document.getElementById("image").innerHTML =
 }
 
-function Element(name, atomicNum, fact, link) {
+function Element(name, atomicNum, atomicMass, fact, link) {
     this.name = name;
     this.atomicNum = atomicNum;
+    this.protons = this.atomicNum;
+    this.neutrons = (Math.round(this.atomicMass) - this.protons);
+    this.electrons = this.protons;
+    this.atomicMass = atomicMass;
     this.fact = fact;
-    var linkName = link;
-    var linkAddress = linkName.link(link);
-    this.link = linkAddress;
+    this.link = link.link(link);
 }
-var H = new Element("HYDROGEN", 1, "The word hydrogen comes from the greek roots hydro which means water and genes which means forming", "https://en.wikipedia.org/wiki/Hydrogen");
-var He = new Element("HELIUM", 2, "Helium has the lowest boiling point out on the periodic table", "https://en.wikipedia.org/wiki/Helium");
-var Li = new Element("LITHIUM", 3, "Lithium is the lightest metal", "https://en.wikipedia.org/wiki/Lithium");
-var Be = new Element("BERYLLIUM", 4, "The United States, China, and Kazakhstan are the only countries involved in the production of Beryllium", "https://en.wikipedia.org/wiki/Beryllium");
-var B = new Element("BORON", 5, "Boron is found in meteroids", "https://en.wikipedia.org/wiki/Boron");
-var C = new Element("CARBON", 6, "Carbon occurs in all living organisms", "https://en.wikipedia.org/wiki/Carbon");
-var N = new Element("NITROGEN", 7, "78% of Earth's atmosphere is made of nitrogen gas", "https://en.wikipedia.org/wiki/Nitrogen");
-var O = new Element("OXYGEN", 8, "Oxygen's solubility in water makes life for underwater animals possible", "https://en.wikipedia.org/wiki/Oxygen");
-var F = new Element("FLUORINE", 9, "The most reactive element on the periodic table", "https://en.wikipedia.org/wiki/Fluorine");
-var Ne = new Element("NEON", 10, "Neon will not react with any other element", "https://en.wikipedia.org/wiki/Neon");
+var H = new Element("HYDROGEN", 1, 1.008, "The word hydrogen comes from the greek roots hydro which means water and genes which means forming", "https://en.wikipedia.org/wiki/Hydrogen");
+var He = new Element("HELIUM", 2, 4.003, "Helium has the lowest boiling point out on the periodic table", "https://en.wikipedia.org/wiki/Helium");
+var Li = new Element("LITHIUM", 3, 6.941, "Lithium is the lightest metal", "https://en.wikipedia.org/wiki/Lithium");
+var Be = new Element("BERYLLIUM", 4, 9.012, "The United States, China, and Kazakhstan are the only countries involved in the production of Beryllium", "https://en.wikipedia.org/wiki/Beryllium");
+var B = new Element("BORON", 5, 10.811, "Boron is found in meteroids", "https://en.wikipedia.org/wiki/Boron");
+var C = new Element("CARBON", 6, 12.011, "Carbon occurs in all living organisms", "https://en.wikipedia.org/wiki/Carbon");
+var N = new Element("NITROGEN", 7, 14.007, "78% of Earth's atmosphere is made of nitrogen gas", "https://en.wikipedia.org/wiki/Nitrogen");
+var O = new Element("OXYGEN", 8, 15.999, "Oxygen's solubility in water makes life for underwater animals possible", "https://en.wikipedia.org/wiki/Oxygen");
+var F = new Element("FLUORINE", 9, 18.998, "The most reactive element on the periodic table", "https://en.wikipedia.org/wiki/Fluorine");
+var Ne = new Element("NEON", 10, 20.180, "Neon will not react with any other element", "https://en.wikipedia.org/wiki/Neon");
 var Na = new Element("SODIUM", 11, "Sodium will tarnish within seconds of being exposed to air", "https://en.wikipedia.org/wiki/Sodium");
 var Mg = new Element("MAGNESIUM", 12, "Magnesium is used in flares, fireworks, and sparklers because it emits a bright light when it burns", "https://en.wikipedia.org/wiki/Magnesium");
 var Al = new Element("ALUMINUM", 13, "Aluminum is used for consumer products because its low density and high thermal activity", "https://en.wikipedia.org/wiki/Aluminum");
