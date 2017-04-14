@@ -12,8 +12,6 @@ function Element(name, atomicNum, fact, link) {
     var linkName = link;
     var linkAddress = linkName.link(link);
     this.link = linkAddress;
-    //var pic = <img src="peanuts.jpg">;
-    //this.pic = pic;
 }
 var H = new Element("HYDROGEN", 1, "The word hydrogen comes from the greek roots hydro which means water and genes which means forming", "https://en.wikipedia.org/wiki/Hydrogen");
 var He = new Element("HELIUM", 2, "Helium has the lowest boiling point out on the periodic table");
