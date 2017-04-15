@@ -4,7 +4,7 @@ function elementAlert(elem) {
     document.getElementById("output").className = "alert alert-info";
 }
 
-function Element(name, atomicNum, atomicMass, fact, link, image) {
+function Element(name, atomicNum, atomicMass, fact, link) {
     this.name = name;
     this.atomicNum = atomicNum;
     this.protons = this.atomicNum;
