@@ -274,23 +274,45 @@ buttonAe:hover {
 }
 
 .invisibleButton2 {
-    width: 140px;
+    width: 70px;
     background-color: #ffffff;
-    font-size: 20px;
+    font-size: 12px;
     border-style: solid;
     border-radius: 1px;
     border-color: white;
-    text-align: center;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.invisibleButton3 {
+    width: 35px;
+    background-color: #ffffff;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.invisibleButton4 {
+    width: 200px;
+    background-color: #ffffff;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+    text-align: left;
     border-radius: 4px;
 }
 
 .buttonAm2 {
-    width: 70px;
+    width: 35px;
     background-color: #e07d7d;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -298,12 +320,12 @@ buttonAe:hover {
 }
 
 .buttonAe2 {
-    width: 70px;
+    width: 35px;
     background-color: #efbf81;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -311,12 +333,12 @@ buttonAe:hover {
 }
 
 .buttonTm2 {
-    width: 70px;
+    width: 35px;
     background-color: #fffbaa;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -324,12 +346,12 @@ buttonAe:hover {
 }
 
 .buttonBm2 {
-    width: 70px;
+    width: 35px;
     background-color: #bfffaa;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -337,12 +359,12 @@ buttonAe:hover {
 }
 
 .buttonSm2 {
-    width: 70px;
+    width: 35px;
     background-color: #baf9ff;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -351,12 +373,12 @@ buttonAe:hover {
 
 
 .buttonNm2 {
-    width: 70px;
+    width: 35px;
     background-color: #a6c1ea;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -364,12 +386,12 @@ buttonAe:hover {
 }
 
 .buttonH2 {
-    width: 70px;
+    width: 35px;
     background-color: #e8d8ff;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -377,12 +399,12 @@ buttonAe:hover {
 }
 
 .buttonNg2 {
-    width: 70px;
+    width: 35px;
     background-color: #d2c6ff;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -390,12 +412,12 @@ buttonAe:hover {
 }
 
 .buttonL2 {
-    width: 70px;
+    width: 35px;
     background-color: #ffb5d3;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -403,12 +425,12 @@ buttonAe:hover {
 }
 
 .buttonA2 {
-    width: 70px;
+    width: 35px;
     background-color: #ffa3f6;
-    font-size: 13px;
+    font-size: 25px;
     border-style: solid;
     border-radius: 1px;
-    border-color: white;
+    border-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
