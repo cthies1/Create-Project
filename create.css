@@ -1,5 +1,6 @@
 #h1 {
     font-family: sans-serif;
+    font-weight: bold;
 }
 
 .buttonAm {
@@ -299,6 +300,7 @@ buttonAe:hover {
     width: 200px;
     background-color: #ffffff;
     font-size: 25px;
+    font-weight: bold;
     border-style: solid;
     border-radius: 1px;
     border-color: white;
